@@ -52,7 +52,10 @@ pip for installing dependencies
 3. Activate the Virtual Environment
 - .venv\Scripts\activate
 
-4. Run the Flask API Server
+4. Install Dependencies
+- pip install -r requirements.txt
+  
+5. Run the Flask API Server
 - python app.py
 
 The API will be available at http://127.0.0.1:5000.
